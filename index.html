@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050b16">
+  <title>JARVIS AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <header>
+      <div class="logo">JARVIS</div>
+      <div class="status">
+        <span class="status-dot"></span>
+        
+      </div>
+    </header>
+
+    <main>
+      <div class="welcome">
+        <p class="small-title">for your service sir</p>
+        <h1>Good evening, Sir.</h1>
+        <p class="subtitle">what is your plans today sir</p>
+      </div>
+
+      <div class="reactor">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+
+        <div class="core">
+          <span></span>
+        </div>
+      </div>
+
+      <div id="state">JARVIS IS READY</div>
+
+      <button id="micButton" class="mic-button">
+        <span></span>
+      </button>
+
+      <p class="mic-hint">TAP TO SPEAK</p>
+
+      <div class="chat-box" id="chatBox">
+        <div class="message jarvis-message">
+          <b>JARVIS</b>
+          <p>Hello Sir. I am ready to assist you.</p>
+        </div>
+      </div>
+
+      <div class="input-area">
+        <input
+          id="userInput"
+          type="text"
+          placeholder="Type a message..."
+        >
+        <button id="sendButton">SEND</button>
+      </div>
+
+    </main>
+
+   <footer>
+  JARVIS AI SYSTEM • VERSION 6.0
+</footer>
+
+  </div>
+
+  <script src="knowledge.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
